@@ -1,0 +1,26 @@
+li {
+    display: flex;
+    justify-content: center;
+}
+
+.meta ul {
+    list-style: none;
+    display: flex;
+}
+
+.astra-shop-summary-wrap {
+    justify-content: center;
+}
+
+.titleBlogs {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-top: 500px;
+}
+
+body {
+    width: 1px;
+}
