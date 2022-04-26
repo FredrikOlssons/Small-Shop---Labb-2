@@ -34,5 +34,15 @@ function remove_single_header() {
  function register_menu() {
      register_nav_menu('footermenu', 'Sociala medier');
  }
+
+ register_sidebar( 
+    [
+        'name' => 'widget sidebar',
+        'id' => 'widget-sidebar',
+        'description' => 'Det här är en sidebar widget'
+    ]
+);
+
+//add_filter( 'astra_enable_woocommerce_integration', '__return_false' );
     ?>
  

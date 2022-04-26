@@ -1,11 +1,11 @@
 li {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .meta ul {
     list-style: none;
-    display: flex;
+    
 }
 
 .astra-shop-summary-wrap {
@@ -17,10 +17,5 @@ li {
     margin-bottom: 30px;
 }
 
-h1 {
-    margin-top: 500px;
-}
 
-body {
-    width: 1px;
-}
+

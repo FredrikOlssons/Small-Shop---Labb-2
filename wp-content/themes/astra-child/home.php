@@ -1,5 +1,5 @@
 <?php get_header() ?>
-<link rel="stylesheet" href="<?php include get_stylesheet_directory_uri() . '/home.css';?>">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/home.css';?>">
 
 <main>
 	<section>
