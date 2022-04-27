@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/home.css';?>">
 <?php
 /**
  * The template for displaying the footer.
@@ -16,8 +17,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <?php astra_content_bottom(); ?>
-	</div> <!-- ast-container -->
-	</div><!-- #content -->
+</div> <!-- ast-container -->
+</div><!-- #content -->
+
+<div class="middle">
+		<?php echo 'En riktigt bra sida att handla ifrån'; ?>
+</div>
+
 <?php 
 	astra_content_after();
 		
@@ -32,8 +38,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_body_bottom();    
 	wp_footer(); 
 
-$menuarray = ['theme_location' => 'footermenu',]; 
-            wp_nav_menu($menuarray) ?>
 
 ?>
 	</body>
