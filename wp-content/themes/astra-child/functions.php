@@ -1,6 +1,6 @@
 <?php
 
-// ta bort header från alla sidor
+/* // ta bort header från alla sidor
  add_action( 'wp', 'remove_astra_header_callback');
 function remove_astra_header_callback(){
 remove_action( 'astra_header', 'astra_header_markup' );
@@ -17,7 +17,7 @@ function greetings_after_products() {
 function remove_single_header() {
     remove_all_actions('astra_single_header');
 } 
- 
+  */
 
 
  //ändra lite i texten vid kassan
